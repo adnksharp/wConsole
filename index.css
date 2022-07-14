@@ -1,0 +1,67 @@
+* {
+    background-color: #111216;
+    color: #ccc;
+    font-family: 'Hack Nerd Font mono', monospace;
+    margin: 0;
+}
+
+div * {
+    background-color: #2a2b35;
+}
+
+select {
+    width: 9vw;
+}
+
+button {
+    width: 4vw;
+}
+
+input {
+    border: 1px solid #fcc22f;
+    outline: none;
+    color: #fff;
+    cursor: text;
+    padding-left: 1rem;
+    width: 83.5vw;
+}
+
+button,
+select {
+    border: 0;
+    cursor: pointer;
+    margin: 0.5vw;
+    outline: none;
+}
+
+.keywords1 {
+    color: #49b6ff;
+}
+
+.keywords2 {
+    color: #fc61ef;
+}
+
+.comment {
+    color: #65d185;
+}
+
+.string {
+    color: #ee8157;
+}
+
+.number {
+    color: #5eebbc;
+}
+
+.variable {
+    color: #43bdff;
+}
+
+.function {
+    color: #ffe44b;
+}
+
+.other {
+    color: #ccc;
+}
